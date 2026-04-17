@@ -60,18 +60,18 @@ limit = 0
 while limit < 3:
     entry = input("Enter the password: ")
     if password == entry:
-        print("Password matched ✅")
+        print("Password matched ")
         break
     else:
-        print("Wrong password ❌")
+        print("Wrong password ")
         limit += 1
 else:
-    print("Attempt limit reached 🚫")
+    print("Attempt limit reached ")
 
 
 # Functions
 def greet():
-    print("Hello Sowmiya 👋")
+    print("Hello Sowmiya ")
     print("Welcome to Python")
 
 greet()
