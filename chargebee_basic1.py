@@ -1,94 +1,128 @@
-# Variables and Data Types
-a = 5
+"""
+a=5
 print(a)
 print(type(a))
+b="Sowmiya"
+print(b[1:-1])
+print(b[::2])
+print(b[::-1])
+print(b[-1])
+c = "    Sowmiya Ashok    "
+print(c.strip())
+print(c.lstrip())
+print(c.rstrip())
+"""
+#variables = values
 
-name = "Sowmiya"
-print(name[1:-1])
-print(name[::2])
-print(name[::-1])
-print(name[-1])
+"""
 
-full_name = "    Sowmiya Ashok    "
-print(full_name.strip())
-print(full_name.lstrip())
-print(full_name.rstrip())
-
-
-# Different Data Types
 a = 5
 b = 1.1
 c = "Sowmiya Ashok"
 d = 4+2j
 e = True
-print(a, b, c, d, e)
-print(type(a), type(b), type(c), type(d), type(e))
+print(a,b,c,d,e)
+print(type(a),type(b),type(c),type(d),type(e))
 
 
-# String Operations
+#collection datatypes
+list   a = [ item1, item2, ...] 
+tuple  b = ( item1, item2, ... )
+set    c = { item1, item2, ...}
+dict   d = {key:value,key:value,key:value,...}
+
+#string operations
+
 a = "Sowmiya"
+#    012345678
 print(a)
 print(a[0])
+print(a[4])
 print(a[-1])
-print(a[2:6])
+print(a[-3])
+print(a[4:8])
 print(a[::2])
 print(a[::-1])
 
+"""
+"""
+b = "Sowmiya Ashok"
+print(b[9:6:-1])
+print(b[-5:-8:-1])
+print(b[9:-8:-1])
+print(b[-5:6:-1])
+"""
+"""
+b = "   Sowmiya Ashok  "
+print(b.strip())
+print(b.lstrip())
+print(b.rstrip())
+"""
 
-# List, Tuple, Set, Dictionary
-lst = ["apple", "egg", "milk"]
-tpl = ("apple", "egg", "milk")
-st = {1, 1.1, "S"}
-dct = {1: "Sowmiya", 2: "Ashok"}
+"""
 
-print(lst)
-print(tpl)
-print(st)
-print(dct)
-print(dct[1])
+a = ["apple", "agg", "milk"]
+print(a)
+print(type(a))
 
+b = ("apple", "agg", "milk")
+print(b)
+print(type(b))
 
-# Modify List
-lst[0] = "bag"
-print(lst)
+a[0] = "bag"
+print(a)
+b[0] = "cat"
+"""
+"""
+c= {1,1.1,"j"}
+print(c)
+print(type(c))
 
+d={1:"Sowmiya",2:"Ashok"}
+print(d)
+print(d[1])
 
-# Conditional Statements (Password Check)
-password = "Sowmiya@123"
-limit = 0
+"""
 
-while limit < 3:
-    entry = input("Enter the password: ")
-    if password == entry:
-        print("Password matched ")
+#conditional statments
+#if, elif, else
+#loops
+#for, while
+
+password= "admin@123"
+limit =0
+while (limit<3):
+    entry = input("Enter the password")
+    if (password == entry):
+        print("password match")
         break
     else:
-        print("Wrong password ")
-        limit += 1
+        print("check your password")
+        limit = limit+1
 else:
-    print("Attempt limit reached ")
+    print("attempt limit reached")
 
+#funtions
 
-# Functions
-def greet():
-    print("Hello Sowmiya ")
-    print("Welcome to Python")
+def abc():
+    print("hello world")
+    print("123")
 
-greet()
+abc()
 
+def add(a,b):
+    print(a+b)
 
-def add(a, b):
-    print("Sum:", a + b)
+add(2,3)
 
-add(2, 3)
+#object oriented programing language
+#classes, object
 
-
-# Object-Oriented Programming
 class First:
     a = 78
 
     def method1(self):
-        print("This is Method1")
+        print("Method1")
 
 o1 = First()
 print(o1.a)
@@ -96,25 +130,24 @@ o1.a = 80
 print(o1.a)
 o1.method1()
 
+#inheritance concept (parent and child)
 
-# Inheritance
 class Second(First):
     b = 45
 
-    def method2(self):
-        print("This is Method2")
+    def Method2(self):
+        print("Method2")
 
 s1 = Second()
 print(s1.b)
 print(s1.a)
 
-
-# Module Example (Make sure cal.py exists)
-# cal.py should contain add, sub, mul, div functions
+#print(o1.b)
+#modules
 
 from cal import *
 
-add(5, 4)
-sub(5, 4)
-mul(5, 4)
-div(5, 4)
+add(5,4)
+sub(5,4)
+mul(5,4)
+div(5,4)
