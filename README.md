@@ -1,2 +1,2 @@
-#Chargebee Python_codes
+#Python_codes
 Collection of Python programs covering basics, loops, functions, and OOP concepts
