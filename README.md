@@ -1,98 +1,87 @@
-# 🐍 Python Codes & Image Processing Collection
+🐍 Python & Computer Vision Projects Collection
+📖 Overview
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Made by](https://img.shields.io/badge/Made%20By-Sowmiya-orange)
+This repository showcases a comprehensive collection of Python scripts and Jupyter Notebooks covering Python programming, Image Processing, Computer Vision, and Natural Language Processing (NLP).
 
-This repository contains a collection of Python programs and Jupyter Notebooks focused on **basic programming, image processing, computer vision, and NLP concepts**.
+It is designed as a practical learning resource, featuring hands-on implementations, real-time OpenCV applications, and basic AI integrations to build a strong technical foundation.
 
----
-
-## 📂 Project Structure
-
-```id="tree02"
+📂 Repository Structure
 .
-├── Day1prog.py
-├── cal.py
-├── chargebee_basic1.py
-├── nlp_codes.py
 ├── Annotating_Images.ipynb
 ├── Basic_Image_Enhancement_Using_Mathematical_Operations.ipynb
 ├── Basic_Image_Manipulations.ipynb
+├── Creating_Panoramas_using_OpenCV.ipynb
+├── Image_Alignment.ipynb
+├── Object_Tracking.ipynb
 ├── Writing_a_video_using_OpenCV.ipynb
 ├── learning_Image_Processing_and_Computer_Vision_.ipynb
+│
+├── camera_face_detection.py
+├── camera_filter.py
+├── camera_preview.py
+│
+├── geminichatbot.py
+├── openaichatbot.py
+├── nlp_codes.py
+│
+├── Day1prog.py
+├── cal.py
+├── chargebee_basic1.py
+│
 └── README.md
-```
+📌 Key Features & Topics
+🔹 Python Programming
+Core syntax and program structure
+Control flow (conditional statements and loops)
+Functions and modular programming
+🔹 Computer Vision & Image Processing
+Image annotation and manipulation
+Image enhancement using mathematical operations
+Panorama creation with OpenCV
+Image alignment techniques
+Object tracking in video streams
+Video writing and processing
+🔹 Real-Time OpenCV Applications
+Live camera preview
+Face detection using webcam
+Real-time image filtering
+🔹 Natural Language Processing (NLP)
+Basic text processing techniques
+Introductory NLP implementations
+🔹 AI Chatbot Integration
+Implementation of AI-powered chatbots
+OpenAI-based chatbot example
+Gemini-based chatbot example
+🚀 Getting Started
+✅ Prerequisites
 
----
+Ensure the following tools and libraries are installed:
 
-## 📌 Topics Covered
+Python 3.x
+Jupyter Notebook or Google Colab
 
-### 🔹 Python Basics
+Install required dependencies:
 
-* Variables and Data Types
-* Conditional Statements
-* Loops
-* Functions
-
-### 🔹 Object-Oriented Programming
-
-* Classes and Objects
-* Basic OOP Concepts
-
-### 🔹 Image Processing & Computer Vision
-
-* Image Enhancement Techniques
-* Image Manipulation
-* Image Annotation
-* OpenCV Video Processing
-
-### 🔹 NLP (Natural Language Processing)
-
-* Basic text processing programs
-
----
-
-## 🚀 How to Run
-
-### ▶️ Run Python Files
-
-```bash id="runpy02"
+pip install opencv-python numpy matplotlib
+▶️ Running Python Scripts
 python filename.py
-```
-
-### 📓 Run Jupyter Notebooks
-
-```bash id="runjn02"
+📓 Running Jupyter Notebooks
 jupyter notebook
-```
+🎯 Objectives
+Strengthen Python programming fundamentals
+Understand core concepts in computer vision and image processing
+Build a foundation for Artificial Intelligence and Machine Learning
+Develop real-time applications using OpenCV
+✨ Highlights
+Well-structured and beginner-friendly content
+Hands-on, practical implementations
+Real-time camera-based projects
+Coverage of both Computer Vision and NLP domains
+Includes basic AI chatbot examples
+👩‍💻 Author
 
----
+Sowmiya A
 
-## 🎯 Purpose
+📌 Disclaimer
 
-* To practice Python programming
-* To learn image processing and computer vision basics
-* To build foundational knowledge for AI/ML
-* Useful for students and beginners
-
----
-
-## ✨ Highlights
-
-* Beginner-friendly code
-* Hands-on image processing examples
-* Real-time OpenCV applications
-* Easy-to-understand notebooks
-
----
-
-## 👩‍💻 Author
-
-**Sowmiya A**
-
----
-
-## 📌 Note
-
-This repository is created for **learning and educational purposes only**.
+This repository is intended solely for educational and learning purposes.
