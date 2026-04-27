@@ -5,7 +5,7 @@ This repository contains Python scripts and Jupyter Notebooks covering Python pr
 
 It focuses on practical learning with real-time applications using OpenCV and basic AI chatbot examples.
 
-
+---
 
 ## 📁 Contents
 - Image processing and computer vision programs  
@@ -14,7 +14,7 @@ It focuses on practical learning with real-time applications using OpenCV and ba
 - NLP examples  
 - Simple AI chatbots  
 
-
+---
 
 ## 🧠 Topics Covered
 - Python fundamentals (loops, conditions, functions)  
@@ -24,7 +24,7 @@ It focuses on practical learning with real-time applications using OpenCV and ba
 - Basic NLP techniques  
 - AI chatbot integration  
 
-
+---
 
 ## ⚙️ Getting Started
 
@@ -33,19 +33,21 @@ It focuses on practical learning with real-time applications using OpenCV and ba
 - Jupyter Notebook / Google Colab  
 
 ### Install Libraries
-
+```
 pip install opencv-python numpy matplotlib
-
+```
 
 ### Run Python Files
-
+```
 python filename.py
+```
 
 ### Run Notebooks
 ```
 jupyter notebook
 ```
 
+---
 
 ## 🎯 Objective
 - Learn Python programming  
@@ -53,11 +55,12 @@ jupyter notebook
 - Build real-time applications  
 - Gain basic knowledge of AI and NLP  
 
+---
 
 ## 👩‍💻 Author
 Sowmiya A  
 
-
+---
 
 ## 📌 Note
 This repository is created for learning purposes and will be updated regularly.
