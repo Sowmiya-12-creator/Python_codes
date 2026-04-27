@@ -1,10 +1,14 @@
 🐍 Python & Computer Vision Projects Collection
 📖 Overview
 
-This repository contains a curated collection of Python scripts and Jupyter Notebooks focused on Python programming, Image Processing, Computer Vision, and Natural Language Processing (NLP).
+This repository contains a curated collection of Python scripts and Jupyter Notebooks focused on:
 
-The project emphasizes hands-on learning through practical implementations, including real-time applications using OpenCV and introductory AI chatbot integrations.
+Python Programming
+Image Processing
+Computer Vision
+Natural Language Processing (NLP)
 
+The project emphasizes hands-on learning through practical implementations, including real-time applications using OpenCV and basic AI chatbot integrations.
 📂 Repository Structure
 .
 ├── Annotating_Images.ipynb
@@ -56,9 +60,7 @@ Gemini-based chatbot
 ✅ Prerequisites
 Python 3.x
 Jupyter Notebook / Google Colab
-
-Install required libraries:
-
+📦 Install Dependencies
 pip install opencv-python numpy matplotlib
 ▶️ Run Python Scripts
 python filename.py
@@ -73,10 +75,12 @@ Create a foundation for AI and Machine Learning
 Beginner-friendly and well-organized
 Practical, hands-on implementations
 Real-time computer vision projects
-Covers both Vision and NLP domains
+Covers both Computer Vision and NLP domains
 Includes basic AI chatbot examples
 👩‍💻 Author
 
 Sowmiya A
 
 📌 Disclaimer
+
+This repository is intended for educational purposes only.
