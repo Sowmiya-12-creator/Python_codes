@@ -4,18 +4,19 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Made by](https://img.shields.io/badge/Made%20By-Sowmiya-orange)
 
-This repository contains a collection of Python programs along with Jupyter Notebooks focused on **basic programming, image processing, computer vision, and NLP concepts**.
+This repository contains a collection of Python programs and Jupyter Notebooks focused on **basic programming, image processing, computer vision, and NLP concepts**.
 
 ---
 
 ## 📂 Project Structure
 
-```id="tree01"
+```id="tree02"
 .
 ├── Day1prog.py
 ├── cal.py
 ├── chargebee_basic1.py
 ├── nlp_codes.py
+├── Annotating_Images.ipynb
 ├── Basic_Image_Enhancement_Using_Mathematical_Operations.ipynb
 ├── Basic_Image_Manipulations.ipynb
 ├── Writing_a_video_using_OpenCV.ipynb
@@ -43,6 +44,7 @@ This repository contains a collection of Python programs along with Jupyter Note
 
 * Image Enhancement Techniques
 * Image Manipulation
+* Image Annotation
 * OpenCV Video Processing
 
 ### 🔹 NLP (Natural Language Processing)
@@ -55,13 +57,13 @@ This repository contains a collection of Python programs along with Jupyter Note
 
 ### ▶️ Run Python Files
 
-```bash id="runpy01"
+```bash id="runpy02"
 python filename.py
 ```
 
 ### 📓 Run Jupyter Notebooks
 
-```bash id="runjn01"
+```bash id="runjn02"
 jupyter notebook
 ```
 
@@ -73,6 +75,15 @@ jupyter notebook
 * To learn image processing and computer vision basics
 * To build foundational knowledge for AI/ML
 * Useful for students and beginners
+
+---
+
+## ✨ Highlights
+
+* Beginner-friendly code
+* Hands-on image processing examples
+* Real-time OpenCV applications
+* Easy-to-understand notebooks
 
 ---
 
